@@ -1,0 +1,81 @@
+2017-11-22T19:49:20.225819000 40.048928s notice: Recursively removing directory /Users/romcohen/Documents/cornell/systems/despacitos/server/rethinkdb_data/tmp
+2017-11-22T19:49:20.228399000 40.051513s notice: Initializing directory /Users/romcohen/Documents/cornell/systems/despacitos/server/rethinkdb_data
+2017-11-22T19:49:20.228503000 40.051611s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/romcohen/Documents/cornell/systems/despacitos/server/rethinkdb_data' did not already exist or is empty.)
+2017-11-22T19:49:20.228530000 40.051638s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-11-22T19:49:20.234417000 40.057526s notice: Running on Darwin 16.7.0 x86_64
+2017-11-22T19:49:20.234458000 40.057565s notice: Loading data from directory /Users/romcohen/Documents/cornell/systems/despacitos/server/rethinkdb_data
+2017-11-22T19:49:20.365184000 40.188346s info: Automatically using cache size of 363 MB
+2017-11-22T19:49:20.365758000 40.188919s notice: Listening for intracluster connections on port 29015
+2017-11-22T19:49:20.367356000 40.190518s notice: Listening for client driver connections on port 28015
+2017-11-22T19:49:20.367468000 40.190630s notice: Listening for administrative HTTP connections on port 8080
+2017-11-22T19:49:20.367475000 40.190636s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-11-22T19:49:20.367478000 40.190639s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-11-22T19:49:20.367480000 40.190642s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-11-22T19:49:20.367483000 40.190645s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-11-22T19:49:20.367486000 40.190648s notice: Server ready, "Roms_MacBook_Pro_local_4gq" 93643acc-04b9-456e-9dbd-3b0cc975dd97
+2017-11-22T20:18:49.433464000 1809.309795s info: Table 94c76627-556b-4b98-b7b6-f0463ce3cafb: Starting a new Raft election for term 1.
+2017-11-22T20:18:49.434316000 1809.310648s info: Table 94c76627-556b-4b98-b7b6-f0463ce3cafb: Added replica on this server.
+2017-11-22T20:18:49.454548000 1809.330880s info: Table 94c76627-556b-4b98-b7b6-f0463ce3cafb: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-22T20:18:50.196172000 1810.072503s info: Table dcf831b3-20a8-4ebe-9f53-3de5baba37d6: Starting a new Raft election for term 1.
+2017-11-22T20:18:50.196509000 1810.072840s info: Table dcf831b3-20a8-4ebe-9f53-3de5baba37d6: Added replica on this server.
+2017-11-22T20:18:50.216368000 1810.092699s info: Table dcf831b3-20a8-4ebe-9f53-3de5baba37d6: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-22T20:18:50.945658000 1810.822042s info: Table b5957ee5-85eb-49e7-ba05-354777875f57: Starting a new Raft election for term 1.
+2017-11-22T20:18:50.945987000 1810.822371s info: Table b5957ee5-85eb-49e7-ba05-354777875f57: Added replica on this server.
+2017-11-22T20:18:50.965874000 1810.842258s info: Table b5957ee5-85eb-49e7-ba05-354777875f57: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-22T20:18:51.680581000 1811.556965s info: Table b4f40903-a095-4512-8a92-7db5e1892ef1: Starting a new Raft election for term 1.
+2017-11-22T20:18:51.680845000 1811.557229s info: Table b4f40903-a095-4512-8a92-7db5e1892ef1: Added replica on this server.
+2017-11-22T20:18:51.703338000 1811.579722s info: Table b4f40903-a095-4512-8a92-7db5e1892ef1: This server is Raft leader for term 1. Latest log index is 0.
+2017-11-22T20:24:12.036894000 2131.922802s notice: Server got SIGINT from pid 259, uid 501; shutting down...
+2017-11-22T20:24:12.037061000 2131.922969s notice: Shutting down client connections...
+2017-11-22T20:24:12.037209000 2131.923117s notice: All client connections closed.
+2017-11-22T20:24:12.037217000 2131.923125s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-11-22T20:24:12.049246000 2131.935154s notice: Storage engine shut down.
+2017-11-22T20:25:27.794756000 40.030974s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-11-22T20:25:27.799419000 40.035635s notice: Running on Darwin 16.7.0 x86_64
+2017-11-22T20:25:27.799450000 40.035665s notice: Loading data from directory /Users/romcohen/Documents/cornell/systems/despacitos/server/rethinkdb_data
+2017-11-22T20:25:27.830008000 40.066223s info: Automatically using cache size of 339 MB
+2017-11-22T20:25:27.830466000 40.066681s notice: Listening for intracluster connections on port 29015
+2017-11-22T20:25:27.874853000 40.111068s notice: Listening for client driver connections on port 28015
+2017-11-22T20:25:27.874964000 40.111179s notice: Listening for administrative HTTP connections on port 8080
+2017-11-22T20:25:27.874966000 40.111181s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-11-22T20:25:27.874968000 40.111182s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-11-22T20:25:27.874976000 40.111191s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-11-22T20:25:27.874978000 40.111192s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-11-22T20:25:27.874979000 40.111194s notice: Server ready, "Roms_MacBook_Pro_local_4gq" 93643acc-04b9-456e-9dbd-3b0cc975dd97
+2017-11-22T20:25:29.503415000 41.739685s info: Table b4f40903-a095-4512-8a92-7db5e1892ef1: Starting a new Raft election for term 2.
+2017-11-22T20:25:29.527161000 41.763432s info: Table b4f40903-a095-4512-8a92-7db5e1892ef1: This server is Raft leader for term 2. Latest log index is 3.
+2017-11-22T20:25:29.559380000 41.795650s info: Table b5957ee5-85eb-49e7-ba05-354777875f57: Starting a new Raft election for term 2.
+2017-11-22T20:25:29.592884000 41.829154s info: Table b5957ee5-85eb-49e7-ba05-354777875f57: This server is Raft leader for term 2. Latest log index is 3.
+2017-11-22T20:25:29.794464000 42.030734s info: Table 94c76627-556b-4b98-b7b6-f0463ce3cafb: Starting a new Raft election for term 2.
+2017-11-22T20:25:29.840908000 42.077179s info: Table 94c76627-556b-4b98-b7b6-f0463ce3cafb: This server is Raft leader for term 2. Latest log index is 3.
+2017-11-22T20:25:29.846350000 42.082621s info: Table dcf831b3-20a8-4ebe-9f53-3de5baba37d6: Starting a new Raft election for term 2.
+2017-11-22T20:25:29.913306000 42.149577s info: Table dcf831b3-20a8-4ebe-9f53-3de5baba37d6: This server is Raft leader for term 2. Latest log index is 3.
+2017-11-22T20:26:03.437792000 75.675065s notice: Server got SIGINT from pid 259, uid 501; shutting down...
+2017-11-22T20:26:03.437921000 75.675193s notice: Shutting down client connections...
+2017-11-22T20:26:03.437990000 75.675261s notice: All client connections closed.
+2017-11-22T20:26:03.437994000 75.675265s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-11-22T20:26:03.444075000 75.681347s notice: Storage engine shut down.
+2017-11-22T20:26:44.877578000 40.029728s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-11-22T20:26:44.883869000 40.036013s notice: Running on Darwin 16.7.0 x86_64
+2017-11-22T20:26:44.883907000 40.036051s notice: Loading data from directory /Users/romcohen/Documents/cornell/systems/despacitos/server/rethinkdb_data
+2017-11-22T20:26:44.915585000 40.067729s info: Automatically using cache size of 288 MB
+2017-11-22T20:26:54.924949000 50.077425s notice: Listening for intracluster connections on port 29015
+2017-11-22T20:26:54.972763000 50.125239s notice: Listening for client driver connections on port 28015
+2017-11-22T20:26:54.972995000 50.125470s notice: Listening for administrative HTTP connections on port 8080
+2017-11-22T20:26:56.285855000 51.438387s info: Table dcf831b3-20a8-4ebe-9f53-3de5baba37d6: Starting a new Raft election for term 3.
+2017-11-22T20:26:56.307707000 51.460240s info: Table dcf831b3-20a8-4ebe-9f53-3de5baba37d6: This server is Raft leader for term 3. Latest log index is 6.
+2017-11-22T20:26:56.360972000 51.513504s info: Table b4f40903-a095-4512-8a92-7db5e1892ef1: Starting a new Raft election for term 3.
+2017-11-22T20:26:56.380855000 51.533387s info: Table b4f40903-a095-4512-8a92-7db5e1892ef1: This server is Raft leader for term 3. Latest log index is 6.
+2017-11-22T20:26:56.719380000 51.871912s info: Table b5957ee5-85eb-49e7-ba05-354777875f57: Starting a new Raft election for term 3.
+2017-11-22T20:26:56.724794000 51.877325s info: Table 94c76627-556b-4b98-b7b6-f0463ce3cafb: Starting a new Raft election for term 3.
+2017-11-22T20:26:56.759173000 51.911704s info: Table b5957ee5-85eb-49e7-ba05-354777875f57: This server is Raft leader for term 3. Latest log index is 6.
+2017-11-22T20:26:56.789326000 51.941859s info: Table 94c76627-556b-4b98-b7b6-f0463ce3cafb: This server is Raft leader for term 3. Latest log index is 6.
+2017-11-22T20:27:04.976392000 60.129146s notice: Listening on cluster addresses: 127.0.0.1, 10.0.1.20, ::1, fe80::1%1, fe80::185a:2007:5083:740c%4, fe80::48ab:c27d:202c:31d6%10, fe80::fc3b:76ff:feae:53df%9
+2017-11-22T20:27:14.986512000 70.139597s notice: Listening on driver addresses: 127.0.0.1, 10.0.1.20, ::1, fe80::1%1, fe80::185a:2007:5083:740c%4, fe80::48ab:c27d:202c:31d6%10, fe80::fc3b:76ff:feae:53df%9
+2017-11-22T20:27:24.992449000 80.145809s notice: Listening on http addresses: 127.0.0.1, 10.0.1.20, ::1, fe80::1%1, fe80::185a:2007:5083:740c%4, fe80::48ab:c27d:202c:31d6%10, fe80::fc3b:76ff:feae:53df%9
+2017-11-22T20:27:24.992465000 80.145824s notice: Server ready, "Roms_MacBook_Pro_local_4gq" 93643acc-04b9-456e-9dbd-3b0cc975dd97
+2017-11-22T20:28:59.415413000 174.571577s notice: Server got SIGINT from pid 259, uid 501; shutting down...
+2017-11-22T20:28:59.415558000 174.571721s notice: Shutting down client connections...
+2017-11-22T20:28:59.415621000 174.571784s notice: All client connections closed.
+2017-11-22T20:28:59.415624000 174.571787s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-11-22T20:28:59.421957000 174.578121s notice: Storage engine shut down.

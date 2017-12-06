@@ -1,0 +1,69 @@
+FORMAT: 1A
+
+# The VanHailing API
+VanHailing lets you request vans for personal use, from moving furniture to 
+
+
+# /quote
+This resource is in charge of determining pricing for trips. 
+
+
+## GET
+Here we define an action using the `GET` [HTTP request method](http://www.w3schools.com/tags/ref_httpmethods.asp) for our resource `/message`.
+
+As with every good action it should return a
+[response](http://www.w3.org/TR/di-gloss/#def-http-response). A response always
+bears a status code. Code 200 is great as it means all is green. Responding
+with some data can be a great idea as well so let's add a plain text message to
+our response.
+
++ Response 200 (text/plain)
+
+        Hello World!
+
+## POST
+OK, let's add another action. This time to put new data to our resource
+(essentially an update action). We will need to send something in a
+[request](http://www.w3.org/TR/di-gloss/#def-http-request) and then send a
+response back confirming the posting was a success (_HTTP Status Code 204 ~
+Resource updated successfully, no content is returned_).
+
++ Request (application/json)
+
+        schema :
+        {
+            "type" : "object",
+            "properties" : {
+                "rider_id" : {"type" : "number"},
+                "pickup_location" : {
+                    "type" : "object",
+                    "properties" : {
+                        "lat" : {"type" : "number"},
+                        "long" : {"type" : "number"}
+                    }
+                },
+                "dropoff_location" : {
+                    "type" : "object",
+                    "properties" : {
+                        "lat" : {"type" : "number"},
+                        "long" : {"type" : "number"}
+                },
+                "pickup_datetime" : {"type" : "string"}
+                }
+            }
+        }
+
+        {
+            "rider_id": 123,
+            "pickup_location":{
+	            "lat": 40.7246704,
+	            "long": -73.9918311
+	        },
+	        "dropoff_location":{
+	            "lat": 40.759155474313346,
+	            "long": -73.95326614379883
+	        },
+            "pickup_datetime": "2012-02-23T00:00:00"
+        }
+
++ Response 202
