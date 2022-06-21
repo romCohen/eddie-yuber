@@ -10,7 +10,7 @@ gunicorn==19.7.1
 idna==2.6
 jsonschema==2.6.0
 msgpack-python==0.4.8
-numpy==1.13.3
+numpy==1.22.0
 packaging==16.8
 py==1.5.2
 pymongo==3.5.1
